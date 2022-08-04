@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+}
+body
+{
+    background-color: blue;
+}
+
+header
+{
+    background-color: aqua;
+
+}
+
+main
+{
+    background-color: brown;
+
+}
+
+nav ol
+{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    
+}
+
+nav li
+{
+    
+}
+
+footer
+{
+    background-color: crimson;
+
+}
+
+.wrapper
+{
+min-width: 500px;
+width: 80%;
+margin: auto;
+}
+h1, h2, h3, h4, h5
+{
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    height: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+a:hover
+{
+    text-decoration: overline;
+
+}
